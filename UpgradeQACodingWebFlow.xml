@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Upgrade QA Coding Web" verbose="2">
+
+<!--  Tests -->
+	<test name="Check Your Offer">
+		<classes>
+			<class name="com.upgrade.UpgradeWebTesting.tests.VerifyOfferTest"/>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
